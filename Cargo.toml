@@ -1,0 +1,15 @@
+[package]
+name = "ltspice"
+version = "0.1.0"
+authors = ["Daniel Thiem <info@daniel-thiem.de>"]
+edition = "2021"
+
+[lib]
+name = "ltspice"
+path = "src/lib.rs"
+
+[dependencies]
+tracing = "0.1"
+regex = "1.5"
+dateparser = "0.2"
+chrono = "0.4"
